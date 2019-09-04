@@ -6,5 +6,6 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.text :price
       t.timestamps
     end
+      add_index :products
   end
 end
